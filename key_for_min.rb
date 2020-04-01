@@ -1,5 +1,6 @@
 def key_for_min_value(name_hash)
-name_hash= {"lowest_key"=>NIL}
+lowest_key=nil 
+lowest_value=nil 
 
 name_hash.each do |key,val|
    if val < name_hash["lowest_key"]

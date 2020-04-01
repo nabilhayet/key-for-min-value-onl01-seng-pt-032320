@@ -3,9 +3,10 @@ lowest_key=nil
 lowest_value=nil 
 
 name_hash.each do |key,val|
-   if val < name_hash["lowest_key"]
-     return key
+   if val < lowest_value
+     lowest_value=val
+     lowest_key=key
     end
-    key 
-  end 
+  end
+  lowest_key
 end

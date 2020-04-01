@@ -5,4 +5,5 @@ name_hash.each do |key,val|
    if val < name_hash["lowest_key"]
      return key
     end
+    key 
   end 

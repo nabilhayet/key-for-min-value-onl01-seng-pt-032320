@@ -4,3 +4,4 @@ name_hash.each do |key,val|
      a<=>b 
     end
   end 
+name_hash[]

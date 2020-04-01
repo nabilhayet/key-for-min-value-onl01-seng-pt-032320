@@ -6,4 +6,3 @@ name_hash.each do |key,val|
      return key
     end
   end 
-name_hash[]

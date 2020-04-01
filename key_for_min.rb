@@ -7,3 +7,4 @@ name_hash.each do |key,val|
     end
     key 
   end 
+end
